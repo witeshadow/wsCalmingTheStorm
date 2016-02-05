@@ -8,7 +8,7 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Calming the Storm'
+title: 'Chris Calming the Storm'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: Getting through every day'
@@ -21,16 +21,16 @@ credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with 
 
 # Main author of the website
 # See > authors.yml
-author: Melinda Roberson
+author: Chris Tennant
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://minda325.github.io/CalmingTheStorm'
+url: 'http://witeshadow.github.io/wsCalmingTheStorm'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/minda325/CalmingTheStorm/edit/gh-pages
+improve_content: https://github.com/witeshadow/wsCalmingTheStorm/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
