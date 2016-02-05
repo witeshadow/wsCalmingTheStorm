@@ -4,7 +4,7 @@ layout: page
 # Content
 #
 subheadline: ""
-title: ""
+title: "New Page"
 teaser: ""
 meta_description: ""
 categories:
