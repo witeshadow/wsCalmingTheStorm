@@ -8,10 +8,10 @@
 #                                                 /____/
 #
 # Title of your website
-title: "Chris Calming the Storm"
+title: 'Chris Calming the Storm'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "Getting through every day"
+slogan: 'Getting through every day'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: ''
@@ -21,7 +21,7 @@ credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with 
 
 # Main author of the website
 # See > authors.yml
-author: Chris Tennant
+author: Chris
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -38,8 +38,8 @@ improve_content: https://github.com/witeshadow/wsCalmingTheStorm/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://s3.amazonaws.com/melinda-blog/images/'
-
+#urlimg: 'https://s3.amazonaws.com/melinda-blog/images/'
+urlimg: 'https://witeshadow.github.io/wsCalmingTheStorm/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
@@ -177,7 +177,7 @@ msapplication_tilecolor:                '#fabb00'
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 # og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
-og_image:							'https://s3.amazonaws.com/melinda-blog/images/IMG_20150926_104307.jpg'
+og_image: 'https://s3.amazonaws.com/melinda-blog/images/IMG_20150926_104307.jpg'
 og_locale:                          'en_EN'
 og_type:                            'website'
 
