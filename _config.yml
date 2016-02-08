@@ -7,11 +7,13 @@
 #   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
 #                                                 /____/
 #
-# Title of your website
-title: 'Chris Calming the Storm'
+highlighter: rouge
 
+
+# Title of your website
+title: 'Living Without Doubt'
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Getting through every day'
+slogan: ''
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: ''
@@ -21,16 +23,16 @@ credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with 
 
 # Main author of the website
 # See > authors.yml
-author: Chris
+author: Melinda
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://witeshadow.github.io/wsCalmingTheStorm'
+url: 'http:/LivingWithOutDobt.github.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/witeshadow/wsCalmingTheStorm/edit/gh-pages
+improve_content: http:/LivingWithOutDobt.github.io/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -38,12 +40,13 @@ improve_content: https://github.com/witeshadow/wsCalmingTheStorm/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-#urlimg: 'https://s3.amazonaws.com/melinda-blog/images/'
-urlimg: 'https://witeshadow.github.io/wsCalmingTheStorm/images/'
+urlimg: 'http:/LivingWithOutDobt.github.io/images/'
+
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
-# logo: 'https://s3.amazonaws.com/melinda-blog/images/IMG_20150926_104307.jpg'
+# logo: "logo.png"
+# logo: 'IMG_20150926_104307.jpg'
+logo: 'LWD_logo.jpg'
 
 
 #       ____              _             __  _
@@ -56,6 +59,8 @@ logo: "logo.png"
 gems:
     - jekyll-gist
     - jekyll-paginate
+    # - jekyll-feed
+#    - wdm, '~> 0.1.0' if Gem.win_platform?
 paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
@@ -111,7 +116,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: Chris     # Default author for pages
+      author: Melinda     # Default author for pages
   -
     scope:
       path: ''
@@ -120,7 +125,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       sidebar: true       # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: Chris     # Default author for posts
+      author: phlow     # Default author for posts
 
 
 
@@ -176,8 +181,9 @@ msapplication_tilecolor:                '#fabb00'
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-# og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
-og_image: 'https://s3.amazonaws.com/melinda-blog/images/IMG_20150926_104307.jpg'
+og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
+# og_image:							'https://s3.amazonaws.com/melinda-blog/images/IMG_20150926_104307.jpg'
+# og_image: 'FB_IMG_1454878233202.jpg'
 og_locale:                          'en_EN'
 og_type:                            'website'
 
@@ -192,7 +198,7 @@ og_type:                            'website'
 #
 
 #socialmedia:
-   twitter: witeshadow
+#    twitter: phlow
 #    facebook: phlow.media
 
 
